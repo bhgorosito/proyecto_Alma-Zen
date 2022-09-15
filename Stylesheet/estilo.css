@@ -96,11 +96,14 @@ body{
                 width: auto;
                 background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
                 }
-                
+                /*Scale en Menu*/
+                nav ul li:hover{
+                transform: scale(1.1, 1.1);
+                }
+                /*cambio color Menu*/
                 nav ul li a.screen:hover {
                 color:#fff;
                 }
-
         /*comienza Main*/
             /*tabla en PRODUCTOS*/
             iframe{max-width: 90%;
@@ -265,6 +268,11 @@ header{
         width: auto;
         background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
         }
+        /*Scale en Menu*/
+        nav ul li:hover{
+        transform: scale(1.1, 1.1);
+        }
+        /*cambio color Menu*/
         nav ul li a.screen:hover {
         color:#fff;
         }
